@@ -1,0 +1,18 @@
+﻿<Window x:Class="subServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:subServer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="488.366">
+    <Grid>
+        <RichTextBox x:Name="richTextBox1" Height="385" Margin="10,24,10,0" VerticalAlignment="Top" IsReadOnlyCaretVisible="True">
+            <FlowDocument>
+                <Paragraph>
+
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
